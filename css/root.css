@@ -1,0 +1,27 @@
+#root {
+    position: relative;
+    width: 480px;
+    height: 550px;
+    left: 900px;
+    top: 150px;
+    z-index: 1;
+    background: #91837e;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    
+    transition: all .5s;
+}
+
+#root h1{
+
+    background-color: transparent;
+    color: #ffffff;
+    text-align: start;
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+
+#root:hover{
+    background-color: #6f170f;
+    transition: all .5s;
+}
